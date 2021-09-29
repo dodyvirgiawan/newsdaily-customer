@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f7ff;
+    font-family: 'Nunito Sans', sans-serif;
+    background: rgb(255,255,255);
+}
+
+.card {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.carousel-caption {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.news-navbar {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.qrcode {
+    background-color: #ffffff; 
+    border: 1px solid #dfdfdf; 
+    border-radius: 5px; 
+    padding: 5px;
+    box-shadow: 2px 4px 6px 0px #4d2dff;
+    -webkit-box-shadow: 2px 4px 6px 0px #4d2dff;
+    -moz-box-shadow: 2px 4px 6px 0px #4d2dff;
+}
+
+.btn-primary {
+    background-color: #654bfd;
+}
+
+.title {
+    color: #5055be;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.btn-info {
+    background-color: #4d2dff;
+}
+
+.btn-primary:hover {
+    background-color: #4d2dff;
+}
+
+a {
+    color: #4d2dff;
+}
